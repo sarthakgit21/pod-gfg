@@ -20,6 +20,7 @@ public:
         }
         int xc = 0;
         int cc = 0;
+        int kk = 0;
         // check2;
         return mp[key] = flag;
     }
