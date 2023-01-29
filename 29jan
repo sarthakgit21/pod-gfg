@@ -1,0 +1,11 @@
+    int solve(int a, int b) {
+        // code here
+        int ans=0;
+        
+        while(a!=b){
+            if(a>b) swap(a,b);
+            b=b&a;
+            ans++;
+        }
+        return ans;
+    }
